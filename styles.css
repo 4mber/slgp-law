@@ -12,6 +12,7 @@ body {
 .tag {
   letter-spacing: 1.4px;
   font-weight: 100;
+  margin-top: 15px;
 }
 .contact-tag {
   letter-spacing: 1px;
@@ -21,21 +22,37 @@ body {
 #down {
   max-width: 50px;
   opacity: 0.8;
-  padding-top: 260px;
+  padding-top: 225px;
 }
 .navbar-fixed-top {
-  background:none;
-}
-.navbar-fixed-top.scrolled {
-  background: linear-gradient(141deg, #1cbbe5, #6ce3ff);
+  background: transparent;
   transition: background 200ms linear;
   -webkit-transition: background 200ms linear;
+}
+.navbar-fixed-top.scrolled {
+  background: linear-gradient(141deg, #02afdc, #a4eeff);
 }
 #contact {
   margin: auto;
   max-width: 410px;
   margin-bottom: 50px;
 }
+#main-logo {
+  width: 300px;
+}
+#nav-logo {
+  width: 280px;
+  height: 80px;
+  background-image: url(resources/SLGP-logomark.svg);
+  background-repeat: no-repeat;
+  transition: background 200ms linear;
+  -webkit-transition: background 200ms linear;
+}
+#nav-logo.full-logo {
+  background-image: url(resources/SLGP-brandmark.svg);
+}
+
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */

@@ -278,10 +278,14 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 
 input[type="submit"] {
   color: #fff;
-  background-color: #45b5e9;
-  border-color: #45b5e9;
+  background-color: #53bfe5;
+  border-color: #53bfe5;
   width: 150px;
   margin-top: 20px;
+}
+input[type="submit"]:hover {
+  background-color: #02afdc;
+  border-color: #02afdc;
 }
 
 button,
@@ -2387,14 +2391,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #45b5e9;
-  border-color: #45b5e9;
+  background-color: #53bfe5;
+  border-color: #53bfe5;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #50b9af;
-  border-color: #50b9af;
+  background-color: #02afdc;
+  border-color: #02afdc;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2421,14 +2425,14 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #45b5e9;
-  border-color: #45b5e9;
+  background-color: #53bfe5;
+  border-color: #53bfe5;
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #50b9af;
-  border-color: #50b9af;
+  background-color: #02afdc;
+  border-color: #02afdc;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
@@ -4911,13 +4915,13 @@ input[type="button"].btn-block {
   padding: 2rem 1rem;
   margin-bottom: 7rem;
 /*  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
-  background: linear-gradient(141deg, #00b0de, #66ddf9);
+  background: linear-gradient(141deg, #02afdc, #a4eeff);
 }
 
 .jumbotron-about {
   padding: 9rem 0 12rem 0;
 /*  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
-  background: linear-gradient(141deg, #00b0de, #66ddf9);
+  background: linear-gradient(141deg, #02afdc, #a4eeff);
 }
 
 @media (min-width: 576px) {
