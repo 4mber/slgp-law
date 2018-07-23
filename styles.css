@@ -38,10 +38,10 @@ body {
   margin-bottom: 50px;
 }
 #main-logo {
-  width: 300px;
+  max-width: 300px;
 }
 #nav-logo {
-  width: 280px;
+  width: 203px;
   height: 80px;
   background-image: url(resources/SLGP-logomark.svg);
   background-repeat: no-repeat;
@@ -50,6 +50,8 @@ body {
 }
 #nav-logo.full-logo {
   background-image: url(resources/SLGP-brandmark.svg);
+  margin-bottom: -7.5px;
+  margin-top: 7.5px;
 }
 
 

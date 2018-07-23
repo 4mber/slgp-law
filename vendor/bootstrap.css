@@ -268,8 +268,10 @@ input {
 
 input[type="text"], input[type="email"], input[type="tel"], textarea {
   display: block;
+  margin: auto;
   margin-bottom: 5px;
-  width: 410px;
+  min-width: 280px;
+  max-width: 410px;
   border: 2px solid #45b5ea;
   border-radius: 3px;
   background-color: #f9fdff;
@@ -578,6 +580,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 250px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -585,24 +588,28 @@ pre code {
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+    padding-top: 0;
   }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+    padding-top: 0;
   }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+    padding-top: 0;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+    padding-top: 0;
   }
 }
 
@@ -1796,6 +1803,14 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
+  .navbar-fixed-top {
+    background: #02afdc !important;
+    text-align: center;
+  }
+  .navbar-nav {
+    height: 225px !important;
+  }
+
 }
 
 @media (max-width: 991.98px) {
