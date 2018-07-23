@@ -4641,6 +4641,10 @@ input[type="button"].btn-block {
   }
 }
 
+.card-img-top {
+  max-height: 220px;
+}
+
 .card-columns .card {
   margin-bottom: 0.75rem;
 }
