@@ -44,6 +44,7 @@ body {
   width: 203px;
   height: 80px;
   background-image: url(resources/SLGP-logomark.png);
+  background-size: contain;
   background-repeat: no-repeat;
   transition: background 200ms linear;
   -webkit-transition: background 200ms linear;
