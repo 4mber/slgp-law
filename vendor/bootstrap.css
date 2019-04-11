@@ -6435,7 +6435,6 @@ button.bg-dark:focus {
     display: inline-flex !important;
   }
 }
-
 .foot-contain {
   display: inline-block;
   width: 33%;
@@ -6455,6 +6454,9 @@ button.bg-dark:focus {
 }
 .footer-logo-trail {
   width: 220px;
+}
+#canna-logo {
+  width: 485px;
 }
 @media (max-width: 1040px) {
   .foot-contain {
@@ -6481,6 +6483,12 @@ button.bg-dark:focus {
   }
   .footer-logo-trail {
     width: 180px;
+  }
+  #news {
+    padding: 80px;
+  }
+  #news-content {
+    font-size: larger;
   }
 }
 
@@ -6530,7 +6538,9 @@ button.bg-dark:focus {
   .footer-logo-distinct, .footer-logo, .footer-logo-trail {
     margin: auto;
   }
-
+  #canna-logo {
+    width: 100%;
+  }
 }
 
 @media (max-width: 450px) {
@@ -6548,6 +6558,9 @@ button.bg-dark:focus {
 @media (max-width: 410px) {
   .footer-logo {
     width: 150px;
+  }
+  #news-content {
+    font-size: medium;
   }
 }
 
