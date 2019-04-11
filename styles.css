@@ -9,6 +9,12 @@
 .white {
      color: #fff;
 }
+.green {
+    color: #78a64f;
+}
+.orange {
+    color: #f29631;
+}
  .tag {
      letter-spacing: 1.4px;
      font-weight: 100;
