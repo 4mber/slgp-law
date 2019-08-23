@@ -4951,7 +4951,6 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 7rem;
-/*  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
   background-image: url("../resources/bg-law.png");
   background-size: cover;
   background-position: bottom;
@@ -4959,8 +4958,7 @@ input[type="button"].btn-block {
 }
 
 .jumbotron-about {
-  padding: 9rem 0 12rem 0;
-/*  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
+  padding: 7rem 0 7rem 0;
   background: linear-gradient(141deg, #02afdc, #a4eeff);
 }
 
