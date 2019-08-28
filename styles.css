@@ -28,13 +28,32 @@
 #down {
      max-width: 50px;
      opacity: 0.8;
-     padding-top: 185px;
+     padding-top: 135px;
+}
+.popup-logo {
+  width: 33%;
+  padding: 50px 20px 50px 0;
+}
+.modal-img {
+    width: 100%;
+}
+#popup-news {
+  padding: 0 0 100px 0;
 }
 #address {
     width: 100%;
 }
-.modal-img {
-    width: 100%;
+#award-img-1 {
+    padding: 40px 40px 20px 40px;
+}
+#award-img-2 {
+    padding: 0 40px 20px 40px;
+}
+#award-left {
+    margin-right: 15px;
+}
+#award-right {
+    margin-left: 15px;
 }
 .navbar-fixed-top {
      background: transparent;
@@ -54,8 +73,10 @@
     text-align: right;
     float: right;
 }
-
-#news, #publications {
+#news {
+    padding: 0 0 150px 0;
+}
+#publications {
     width: 100%;
     padding: 120px 120px;
     margin: 150px 0 100px 0;
@@ -85,13 +106,13 @@
     padding-right: 75px;
 }
 .news-link {
-    color: #d5f4ff;
+    color: #6ec8eb;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -o-transition: 1s;
 }
 .news-link:hover {
-    color: #ffffff;
+    color: #007bff;
 } 
 .published-content {
     font-size: 1.2rem;
@@ -234,6 +255,14 @@
         float: none;
         max-width: 100%;
     }
+}
+@media (max-width: 575px) {
+  #award-left {
+    margin-right: 0;
+  }
+  #award-right {
+    margin-left: 0;
+  }
 }    
 @media (max-width: 450px) {
   #news, #publications {
@@ -243,8 +272,62 @@
     font-size: 1.75rem;  
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 415px) {
   .news-title {
-    font-size: 1.25rem;  
+    font-size: 2rem;  
+  }
+  #everything {
+    padding-top: 0px;
+  }
+  .jumbotron {
+    margin-bottom: 1rem;
+  }
+  #categories {
+    text-align: center;
+    padding-top: 70px;
+  }
+  #bar-board {
+    padding: 0;
+  }
+  #bar-board-honors-awards {
+    padding-top: 80px;
+  }
+  #main-head {
+    padding-top: 150px;
+  }
+  #down {
+    opacity: 0;
+    padding-top: 0px;
+  }
+  #last-foot {
+    bottom: 0;
+    padding: 100px 10px 50px 10px;
+  }
+  .foot-contain {
+    margin: auto;
+    width: 50%;
+  }
+  .to-top, #copyright {
+    font-size: 0.75rem;
+  }
+  #copyright {
+    display: inline;
+    vertical-align: top;
+  }
+  #articles {
+    padding-top: 50px;
+  }
+  #award-img-2 {
+    padding-top: 20px;
+  }
+  .popup-logo {
+    width: 70%;
+    padding: 0 0 50px 0;
+  }
+  .news-title {
+    font-size: 1.35rem;
+  }
+  #popup-news {
+    padding: 0 0 20px 0;
   }
 }
