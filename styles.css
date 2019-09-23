@@ -256,12 +256,25 @@
         max-width: 100%;
     }
 }
+#cannacon-flier {
+  width: 66%;
+}
+#promo-code {
+  padding-bottom: 25px;
+}
 @media (max-width: 575px) {
   #award-left {
     margin-right: 0;
   }
   #award-right {
     margin-left: 0;
+  }
+  #promo-code {
+    font-size: 0.9rem;
+    padding-bottom: 15px;
+  }
+  #cannacon-flier {
+    width: 100%;
   }
 }    
 @media (max-width: 450px) {
